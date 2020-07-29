@@ -15,10 +15,15 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
   color: #6633ff;
+}
+
+a.email{
+  text-decoration: none;
+  color: black;
 }
 
 /* Section Styles */
@@ -57,7 +62,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/newzealand.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -85,21 +90,21 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color:white;
+  color: black;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
 
 ul.skills {
